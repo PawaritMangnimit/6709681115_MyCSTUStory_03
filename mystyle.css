@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.wuk{
+    padding-left: 20px;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+header img.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+section {
+    margin: 20px 0;
+}
+h3{
+    font-size: 1.6em;
+}
+h2 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 40px; 
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+video.profile-video {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+mark{
+    background-color: #C0E4F6;
+}
+footer {
+    background-color: #ddd;
+    padding: 10px;
+
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info {
+    width: 45%;
+}
+
+.skills-info {
+    width: 45%;
+    text-align: left;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profile-section {
+    width: 45%; 
+    text-align: center; 
+}
+
+.video-section {
+    width: 45%; 
+}
+
+header img.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+video.profile-video {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.contact-icons {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px; 
+}
+
+.telephone {
+    display: flex;
+    align-items: center; 
+}
+
+.telephone img {
+    margin-right: 10px; 
+}
+
+h1 {
+    font-size: 3em; 
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-size: 2em; 
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-size: 1.4em;
+    color: #555;
+}
+
+
+ul li {
+    font-size: 1.3em; 
+    margin-bottom: 5px;
+}
+
+
+footer a {
+    font-size: 1.2em; 
+
+}
+
+
+footer .telephone span {
+    font-size: 1.2em;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    font-size: 1.6em;
+    text-decoration: none;
+}
+.navbar a.active {
+    color: #FF5733;
+
+}
+
+.navbar a:first-child {
+    margin-right: auto; 
+}
+
+.navbar a:nth-child(2) {
+    margin: 0 auto; 
+}
+
+.navbar a:last-child {
+    margin-left: auto; 
+}
+.profile-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.profile-container img.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.profile-text {
+    max-width: 600px;
+    font-size: 1.2em;
+    color: #333;
+}
+.years-section {
+    margin-top: 20px;
+}
+
+.year-container h3,
+.year-container p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.year-container p {
+    font-size: 1.6em;
+    color: #555;
+    margin-left: 20px;
+}
