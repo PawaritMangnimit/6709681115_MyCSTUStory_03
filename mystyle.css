@@ -181,7 +181,7 @@ footer {
     margin-left: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .navbar {
         flex-direction: column; 
     }
@@ -221,3 +221,81 @@ footer {
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row; 
+        justify-content: space-around; 
+    }
+
+    .info-container {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
+    .personal-info, .skills-info {
+        width: 48%; 
+    }
+
+    .header-container {
+        flex-direction: row; 
+    }
+
+    .profile-section, .video-section {
+        width: 48%; 
+    }
+
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1.1em; 
+    }
+
+    ul li {
+        font-size: 1.1em; 
+    }
+}
+@media (min-width: 1025px) {
+    .navbar {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
+    .info-container {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
+    .personal-info, .skills-info {
+        width: 45%; 
+    }
+
+    .header-container {
+        flex-direction: row; 
+    }
+
+    .profile-section, .video-section {
+        width: 45%; 
+    }
+
+    h1 {
+        font-size: 2.5em; 
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.2em; 
+    }
+
+    ul li {
+        font-size: 1.2em; 
+    }
+}
