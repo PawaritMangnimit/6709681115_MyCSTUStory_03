@@ -181,6 +181,44 @@ footer {
     margin-left: 20px;
 }
 
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column; 
+    }
+
+    .info-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .personal-info, .skills-info {
+        width: 100%;
+    }
+
+    .header-container {
+        flex-direction: column; 
+    }
+
+    .profile-section, .video-section {
+        width: 100%; 
+    }
+
+    h1 {
+        font-size: 1.8em; 
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1em; 
+    }
+
+    ul li {
+        font-size: 1em; 
+    }
+}
 
 @media (max-width: 768px) {
     .navbar {
