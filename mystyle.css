@@ -258,3 +258,42 @@ footer {
         font-size: 1em; 
     }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row; 
+        justify-content: space-around; 
+    }
+
+    .info-container {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
+    .personal-info, .skills-info {
+        width: 48%; 
+    }
+
+    .header-container {
+        flex-direction: row; 
+    }
+
+    .profile-section, .video-section {
+        width: 48%; 
+    }
+
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1.1em; 
+    }
+
+    ul li {
+        font-size: 1.1em; 
+    }
+}
